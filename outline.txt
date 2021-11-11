@@ -2,3 +2,11 @@ React Draggable List Component | React Drag And Drop | ReactJS Tutorial
 
 npx create-react-app client
 
+add assets
+    images for database
+    listData.js  -- the data
+
+components folder
+    list folder
+        draggable list component and draggable list item component
+        card component

@@ -1,9 +1,14 @@
-import './App.css';
+import "./App.css";
+import DraggableList from "./components/list/draggable-list/DraggableList";
+import { listData } from "./assests/listData.js";
 
-function App() {
+const App = () => {
   return (
-    <div className="app">
-hi
+    <div>
+      <h1 className="header">Drag and Drop list (rank your favorites)</h1>
+      <DraggableList 
+        data={listData}
+      />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root {
+  --bg-color: #1e1d2b;
+  --card-bg: #272938;
+  --txt-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 5rem;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+/* .header {
+  margin-bottom: 30px;
+} */
