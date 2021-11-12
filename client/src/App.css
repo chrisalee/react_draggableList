@@ -19,11 +19,11 @@ html, body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 2rem;
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
 
-/* .header {
+.header {
   margin-bottom: 30px;
-} */
+}
